@@ -1,31 +1,32 @@
 # bunkie-fe-pjt-83
 Frontend Repository for the Team 83 Bunkie project
 
-About project-bunkie
+# About project-bunkie
 This project seeks to proffer a solution to one of the draining problems university students face, that is, getting a decent accommodation and a compatible roommate to live with to split room costs.
 
-Low-fi Design
+# Low-fi Design
 Link to design in figma
 
 contains project styleguide
 
-Contribution Guide
-Fork the repository
+# Contribution Guide
 
-clone and then open it up on your prefered code editor
+1. Fork the repository
 
-Open terminal and set upstream branch: git remote add upstream https://github.com/zuri-training/bunkie-fe-pjt-83
+1. clone and then open it up on your prefered code editor
 
-Pull upstream git pull upstream main
+1. Open terminal and set upstream branch: `git remote add upstream https://github.com/zuri-training/bunkie-fe-pjt-83`
 
-Create a new branch for the task your are doing eg: git checkout -b landing-page
+1. Pull upstream `git pull upstream main`
 
-After making changes, do git add .
+1. Create a new branch for the task your are doing eg: `git checkout -b landing-page`
 
-Commit your changes with a descriptive commit message git commit -m "commit message"
+1. After making changes, do `git add` .
 
-To make sure there are no conflicts: git pull upstream main
+1. Commit your changes with a descriptive commit message `git commit -m "commit message"`
 
-Push changes to your new branch: git push origin your-current-branch-name
+1. To make sure there are no conflicts: `git pull upstream main`
 
-Create a pull request to the main branch
+1. Push changes to your new branch: `git push origin your-current-branch-name`
+
+1. Create a pull request to the main branch
