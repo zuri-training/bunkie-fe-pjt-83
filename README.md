@@ -5,7 +5,7 @@ Frontend Repository for the Team 83 Bunkie project
 This project seeks to proffer a solution to one of the draining problems university students face, that is, getting a decent accommodation and a compatible roommate to live with to split room costs.
 
 # Low-fi Design
-<a href="https://www.figma.com/file/Sbh1zuCFAzera1yIHYVz6K/Project-Bunkie?node-id=0%3A1" Link to design in figma<a/>
+<a href="https://www.figma.com/file/Sbh1zuCFAzera1yIHYVz6K/Project-Bunkie?node-id=0%3A1" Link to design in figma <a/>
 
 contains project styleguide
 
