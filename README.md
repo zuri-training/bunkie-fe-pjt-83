@@ -14,7 +14,7 @@ Fork the repository
 
 clone and then open it up on your prefered code editor
 
-Open terminal and set upsream branch: git remote add upstream https://github.com/zuri-training/bunkie-fe-pjt-83
+Open terminal and set upstream branch: git remote add upstream https://github.com/zuri-training/bunkie-fe-pjt-83
 
 Pull upstream git pull upstream main
 
