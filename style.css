@@ -36,7 +36,7 @@ body{
 
 /* Desktop viewport */
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1276px){
 
     .main_content_container{
         max-width: 60vw;
@@ -99,7 +99,7 @@ h1{
 
 /* Listing title, author and address desktop viewport */
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1276px){
     h1{
         margin-bottom: 6px;
         font-size: 17px;
@@ -155,7 +155,46 @@ h1{
     background-size: cover;
 }
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1276px){
+    .apartment_images{
+        display: grid;
+        gap: 15px;
+        grid-template-columns: auto auto;
+        height: 515px;
+        margin: 15px 0 0 0;
+        width: 100%;
+    }
+
+    .img-item1{
+        height: 500px;
+        width: 100%;
+    }
+    
+    .img-item2{
+        height: 242px;
+        width: 100%;
+    }
+    
+    .img-item3{
+        height: 243px;
+        width: 100%;
+    }
+
+    .img2_3{
+        display: grid;
+        gap: 15px;
+        grid-template-rows: auto auto;
+        width: 100%;
+    }
+
+    .large_img{
+      width: 100%; 
+    }
+
+}
+
+@media screen and (min-width: 768px){
+
     .apartment_images{
         display: grid;
         gap: 15px;
@@ -269,7 +308,7 @@ h1{
 
 /* about and comment section desktop viewport*/
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1276px){
     .about_and_comment_section{
         display: flex;
         padding-left: 50px;
@@ -396,7 +435,7 @@ input[type= text]{
 
 /* Author's name and contact section desktop viewport */
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1276px){
     .author_picture_and_name{
         display: flex;
         align-items: center;
@@ -530,7 +569,7 @@ input[type= text]{
 
 /* nearby apartments cards for desktop viewport*/
 
-@media screen and (min-width: 769px){
+@media screen and (min-width: 1038px){
     .nearby_apartments{
         display: grid;
         gap: 5px;
@@ -545,4 +584,22 @@ input[type= text]{
         height: 40px;
         width: 60%;
     }
+}
+
+@media screen and (min-width: 903px) and (max-width: 1038px){
+    .nearby_apartments{
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media screen and (min-width: 608px) and (max-width: 920px){
+    .nearby_apartments{
+        display: grid;
+        gap: 5px;
+        grid-template-columns: 1fr 1fr;
+    }
+
 }
